@@ -1,7 +1,7 @@
 # Academic-and-Formality-Rewriter
 ### data preparation folder:
-##### SubstitutionModel.ipynb:
-GYAFC_Taboo_Dictionary.ipynb:
+* SubstitutionModel.ipynb:
+* GYAFC_Taboo_Dictionary.ipynb:
 
 ### model folder:
 Classifier.ipynb:
