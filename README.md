@@ -4,23 +4,28 @@ The ownership of the GYAFC corpus belongs to Yahoo, Rao and Tetreault. Please co
 https://github.com/raosudha89/GYAFC-corpus
 
 ### data preparation folder:
-* SubstitutionModel.ipynb: <br>
+* __Substitution_Model.ipynb:__ <br>
 This include the code for the substitution model that generates GYAFC-academic corpus from GYAFC. Notice that replacement words starting with '#' imply that they need to be manually rewrite.
 
-* GYAFC_Taboo_Dictionary.ipynb: <br>
+* __GYAFC_Taboo_Dictionary.ipynb:__ <br>
 This code is for collecting the taboo word statistics from the GYAFC corpus.
 
 ### model folder:
-* Classifier.ipynb: <br>
+* __Classifier.ipynb:__ <br>
 This code is for training Academic and Formality Classifier and Formality Classifier with BERT model. You can change the input file for different Classifier training.
 
-* Rewriter.ipynb: <br>
+* __Rewriter.ipynb:__ <br>
 This code is for training Academic and Formality Rewriter with warm-started BERT2BERT model. Available input files are EM corpus, FR corpus, and EMFR corpus.
 
-* GetRewriterOutput.ipynb: <br>
+* __Get_Rewriter_Output.ipynb:__ <br>
 This code is for getting the Rewriters' outputs on the test set and save them for later evaluation.
 
 ### evaluation folder:
-* Classify_Model_Outputs.ipynb:
-* GrammarCheck.ipynb:
-* Manual_Analysis.ipynb:
+* __Classify_Model_Outputs.ipynb:__ <br>
+This code is for applying the Classifiers to classify the model outputs (including both warm-started transformer models and benchmark models) and collect statistics.
+
+* __Grammar_Check.ipynb__: <br>
+This code is for applying the Language Tool Python python package for checking the grammar accuracy of the model outputs.
+
+* __Manual_Analysis.ipynb__: <br>
+This code is for selecting sentences for manual analysis and their corresponding scores.
